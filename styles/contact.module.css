@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jost:wght@300&display=swap');
+
+.contact {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.contact .header {
+    font-size: 2.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.contact .contact_div {
+    width: 35%;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0.005rem 0.05rem 0.5rem 0.1rem grey;
+    background-color: white;
+    /* background-color: orchid; */
+}
+
+.contact .contact_div .flexdiv {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.contact .contact_div .flexdiv .icon {
+    margin-right: 0.7rem;
+}
+
+.contact .contact_div .flexdiv h2 {
+    font-family: 'Jost', sans-serif;
+}
+
+.contact .social {
+    margin-top: 3rem;
+    width: 35%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0.005rem 0.05rem 0.5rem 0.1rem grey;
+    background-color: white;
+}
+
+.contact .social .social_icons {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.contact .social .linkedin {
+    color: #0a66c2;
+}
+
+.contact .social .linkedin:hover {
+    opacity: 0.9;
+}
+
+.contact .social .facebook {
+    color: #385899;
+}
+
+.contact .social .facebook:hover {
+    opacity: 0.9;
+}
+
+.contact .social .instagram {
+    color: #b7338f;
+}
+
+.contact .social .instagram:hover {
+    opacity: 0.9;
+}

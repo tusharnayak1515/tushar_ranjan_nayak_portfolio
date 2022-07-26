@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Exo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+.container {
+  padding: 0 3rem;
+}
+
+.main {
+  min-height: 90vh;
+  margin: 1rem 0;
+  /* padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* background-color: blueviolet; */
+}
+
+.main .banner {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.005rem 0.05rem 0.5rem 0.1rem grey;
+  background-color: white;
+}
+
+.main .banner .banner_left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-color: yellowgreen; */
+}
+
+.main .banner .banner_left .heading {
+  /* margin-top: 3rem; */
+  margin-bottom: 0rem;
+  width: 80%;
+  /* background-color: brown; */
+}
+
+.main .banner .banner_left .heading h1 {
+  font-size: 3.5rem;
+  font-family: 'Exo 2', sans-serif;
+  line-height: 2.5rem;
+}
+
+.main .banner .banner_left .heading .name {
+  color: rgb(254, 49, 223);
+}
+
+.main .banner .banner_left .intro {
+  width: 80%;
+  /* background-color: olivedrab; */
+}
+
+.main .banner .banner_left h2 {
+  width: 85%;
+  font-weight: normal;
+  font-family: 'Cormorant Garamond', serif;
+  word-wrap: break-word;
+  /* background-color: orchid; */
+}
+
+.main .banner .banner_right {
+  width: 40%;
+  height: 100%;
+  /* padding: 0 1rem; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: purple; */
+}
+
+.main .subhead {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Cormorant SC', serif;
+}
+
+.main .skills {
+  min-height: 35vh;
+  margin: 1rem 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.005rem 0.05rem 0.5rem 0.1rem grey;
+  background-color: white;
+}
+
+.main .skills .skill_item {
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellowgreen; */
+}
+
+.main .skills .skill_item h3 {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.main .projects_container {
+  height: 5vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: orchid; */
+}
+
+.main .projects_container button {
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(254, 49, 223);
+}
+
+.main .projects_container button:hover {
+  color: rgb(254, 49, 223);
+  background-color: white
+}
