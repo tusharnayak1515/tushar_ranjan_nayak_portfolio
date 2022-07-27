@@ -12,7 +12,7 @@ const contact = () => {
     <div className={styles.contact}>
         <Head>
             <title>Contact Me</title>
-            <meta name="keywords" content="portfolio next next.js contact-me" />
+            <meta name="keywords" content="portfolio, next, next.js, contact me" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
 

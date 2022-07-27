@@ -25,7 +25,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Tushar Ranjan Nayak</title>
-        <meta name="keywords" content="portfolio next next.js tushar ranjan nayak" />
+        <meta name="keywords" content="portfolio, next, next.js, tushar ranjan nayak" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

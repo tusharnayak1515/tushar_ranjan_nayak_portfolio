@@ -10,7 +10,7 @@ const Projects = ({allProjects}) => {
     <div className={styles.projects}>
         <Head>
             <title>Projects</title>
-            <meta name="keywords" content="portfolio next next.js just-connect" />
+            <meta name="keywords" content="portfolio, next, next.js, just-connect" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
         
