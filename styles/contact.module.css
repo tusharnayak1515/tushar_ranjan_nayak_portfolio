@@ -59,26 +59,18 @@
     cursor: pointer;
 }
 
-.contact .social .linkedin {
-    color: #0a66c2;
+.contact .social .social_icons:hover {
+    opacity: 0.9;
 }
 
-.contact .social .linkedin:hover {
-    opacity: 0.9;
+.contact .social .linkedin {
+    color: #0a66c2;
 }
 
 .contact .social .facebook {
     color: #385899;
 }
 
-.contact .social .facebook:hover {
-    opacity: 0.9;
-}
-
 .contact .social .instagram {
     color: #b7338f;
-}
-
-.contact .social .instagram:hover {
-    opacity: 0.9;
 }

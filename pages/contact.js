@@ -3,7 +3,7 @@ import React from 'react';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
 import { MdLocationPin } from 'react-icons/md';
-import { BsLinkedin, BsFacebook, BsInstagram } from 'react-icons/bs';
+import { BsLinkedin, BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
 
 import styles from '../styles/contact.module.css';
 
@@ -46,6 +46,9 @@ const contact = () => {
             </a>
             <a href="https://www.instagram.com/tusharnayak2/" target="_blank">
                 <BsInstagram size="1.6rem" className={`${styles.social_icons} ${styles.instagram}`} />
+            </a>
+            <a href="https://github.com/tusharnayak1515" target="_blank">
+                <BsGithub size="1.6rem" className={`${styles.social_icons} ${styles.github}`} />
             </a>
             
         </div>

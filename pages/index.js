@@ -3,16 +3,18 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import bannerImg from '../public/static/images/banner.jpg';
 import react from '../public/static/images/react.png';
-import node from '../public/static/images/node.png';
-import express from '../public/static/images/express.jpg';
+import node from '../public/static/images/node.jpg';
+import express from '../public/static/images/express.png';
 import mongodb from '../public/static/images/mongodb.png';
 import next from '../public/static/images/next.svg';
+import js from '../public/static/images/js.jpg';
+import python from '../public/static/images/python.png';
 
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   const router = useRouter();
-  const skills = [{name: "React.js", url: react}, {name: "Node.js", url: node}, {name: "Express", url: express}, {name: "MongoDB", url: mongodb}, {name: "Next.js", url: next}];
+  const skills = [{name: "React.js", url: react}, {name: "Node.js", url: node}, {name: "Express", url: express}, {name: "MongoDB", url: mongodb}, {name: "Next.js", url: next}, {name: "JavaScript", url: js}, {name: "Python", url: python}];
 
   const onProjectClick = (e)=> {
     e.preventDefault();
@@ -37,8 +39,8 @@ export default function Home() {
             </div>
 
             <div className={styles.intro}>
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perferendis illum fuga dicta cumque dignissimos.   Natus sequi quae unde excepturi laborum, officiis ab laudantium vero dolores libero placeat consequatur, accusantium adipisci enim rerum labore?</h2>
-              {/* <p>I’m a Full-Stack Web Developer. I have a passion for creating useful and creative websites.</p> */}
+              {/* <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perferendis illum fuga dicta cumque dignissimos.   Natus sequi quae unde excepturi laborum, officiis ab laudantium vero dolores libero placeat consequatur, accusantium adipisci enim rerum labore?</h2> */}
+              <h2>I’m a Full-Stack Web Developer. I have a passion for creating useful and creative websites. I have been working on <b>MERN STACK</b> and <b>NEXT JS</b> since one year and have quite good hands on it.</h2>
             </div>
           </div>
 
