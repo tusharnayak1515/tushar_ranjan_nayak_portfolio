@@ -39,16 +39,16 @@ const contact = () => {
 
         <div className={styles.social}>
             <a href="https://www.linkedin.com/in/tushar-nayak-667156206/" target="_blank">
-                <BsLinkedin size="1.6rem" className={`${styles.social_icons} ${styles.linkedin}`} />
+                <BsLinkedin className={`${styles.social_icons} ${styles.linkedin}`} />
             </a>
             <a href="https://www.facebook.com/profile.php?id=100010638071586" target="_blank">
-                <BsFacebook size="1.6rem" className={`${styles.social_icons} ${styles.facebook}`} />
+                <BsFacebook className={`${styles.social_icons} ${styles.facebook}`} />
             </a>
             <a href="https://www.instagram.com/tusharnayak2/" target="_blank">
-                <BsInstagram size="1.6rem" className={`${styles.social_icons} ${styles.instagram}`} />
+                <BsInstagram className={`${styles.social_icons} ${styles.instagram}`} />
             </a>
             <a href="https://github.com/tusharnayak1515" target="_blank">
-                <BsGithub size="1.6rem" className={`${styles.social_icons} ${styles.github}`} />
+                <BsGithub className={`${styles.social_icons} ${styles.github}`} />
             </a>
             
         </div>

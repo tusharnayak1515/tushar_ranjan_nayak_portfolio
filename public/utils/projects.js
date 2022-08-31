@@ -2,6 +2,8 @@ import just_bg from "../static/images/just_bg.jpg";
 import text_utils from "../static/images/text_utils.jpg";
 import notes_app from "../static/images/notes_app.png";
 import tic_tac_toe from "../static/images/tic-tac-toe.jpg";
+import codershub from "../static/images/codershub.png";
+import jpm from "../static/images/jpm.jpg";
 
 const projects = [
   {
@@ -21,20 +23,35 @@ const projects = [
       "Text Utils is a web-app made using React.js in which you can paste any text and get it formatted as you want!",
   },
   {
-    name: "Alpha Notes",
-    github: "https://github.com/tusharnayak1515/alphaNotes.github.io",
-    live: "https://alpha-notes-2625.web.app/",
+    name: "Just Notes",
+    github: "https://github.com/tusharnayak1515/just-notes",
+    live: "https://just-notes.vercel.app/",
     image: notes_app,
     description:
-      "Alpha Notes is a website which allows a user to register and store their notes. This website is created using MERN STACK.",
+      "Just Notes is a website made using NEXT.JS which allows a user to register, create folders and store their notes in them.",
+  },
+  {
+    name: "JPM",
+    github: "https://github.com/tusharnayak1515/just-project-manager",
+    live: "https://just-project-manager.vercel.app/",
+    image: jpm,
+    description:
+      "This is a website like todo-list  which allows users to add their projects and tasks related to them and keep a track of their progress. This website is made using Next.js.",
   },
   {
     name: "Tic Tac Toe",
-    github: "https://github.com/tusharnayak1515/tic-tac-toe_2625",
-    live: "https://tic-tac-toe-2625.surge.sh/",
+    github: "https://github.com/tusharnayak1515/just-tic-tac-toe",
+    live: "https://tic-tac-toe-two-mauve.vercel.app/",
     image: tic_tac_toe,
+    description: "This web-app is a tic-tac-toe game made using React.js",
+  },
+  {
+    name: "Coders Hub",
+    github: "https://github.com/tusharnayak1515/coders-hub",
+    live: "https://coders-hub-rho.vercel.app/",
+    image: codershub,
     description:
-      "This web-app is a tic-tac-toe game made using React.js",
+      "Coders Hub is a blog website specially for the programmers where they can find solutions to their queries and also help others find solutions to their queries.",
   },
 ];
 

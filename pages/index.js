@@ -9,6 +9,7 @@ import mongodb from '../public/static/images/mongodb.png';
 import next from '../public/static/images/next.svg';
 import js from '../public/static/images/js.jpg';
 import python from '../public/static/images/python.png';
+import Skills from '../components/Skills';
 
 import styles from '../styles/Home.module.css';
 
@@ -45,21 +46,16 @@ export default function Home() {
           </div>
 
           <div className={styles.banner_right}>
-            <Image src={bannerImg} alt="Banner" width="400px" height="400px" style={{border: "none", borderRadius: "50%"}} />
+            <div className={styles.banner_img}>
+              <Image src={bannerImg} alt="Banner" layout='fill' />
+            </div>
           </div>
 
         </div>
 
         <h1 className={styles.subhead}>Skills</h1>
 
-        <div className={styles.skills}>
-          {skills && skills.map((skill,index)=> {
-            return(<div className={styles.skill_item} key={index}>
-              <Image src={skill.url} alt={skill.name} width="150px" height="150px" style={{border: "none", borderRadius: "50%"}} />
-              <h3>{skill.name}</h3>
-            </div>)
-          })}
-        </div>
+        <Skills skills={skills} />
 
         <h1 className={styles.subhead}>Projects</h1>
 
