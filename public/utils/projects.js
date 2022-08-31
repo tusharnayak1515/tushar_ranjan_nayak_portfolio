@@ -28,7 +28,7 @@ const projects = [
     live: "https://just-notes.vercel.app/",
     image: notes_app,
     description:
-      "Just Notes is a website made using NEXT.JS which allows a user to register, create folders and store their notes in them.",
+      "Just Notes is a website made using NEXT.JS which allows users to register, create folders and store their notes in them.",
   },
   {
     name: "JPM",
