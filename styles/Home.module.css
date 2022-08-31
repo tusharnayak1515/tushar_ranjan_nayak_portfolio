@@ -122,7 +122,6 @@
 }
 
 .main .skills .skill_item {
-  position: relative;
   height: 9rem;
   width: 9rem;
   margin: 0;
@@ -134,9 +133,16 @@
   /* background-color: yellowgreen; */
 }
 
+.main .skills .skill_item .skill_image_div {
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  border: none;
+  border-radius: 50%;
+  /* background-color: red; */
+}
+
 .main .skills .skill_item span img {
-  height: 5rem !important;
-  width: 5rem !important;
   border: none;
   border-radius: 50%;
 }
@@ -172,7 +178,7 @@
 
 /* Media Queries */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 430px) {
 
   .container {
     padding: 0 1rem;
@@ -228,15 +234,87 @@
   }
 
   .main .skills .skill_item {
-    height: 7rem;
-    width: 7rem;
+    height: 9rem;
+    width: 9rem;
     margin-bottom: 2rem;
     /* background-color: yellowgreen; */
   }
+
+  .main .skills .skill_item .skill_image_div {
+    height: 4rem;
+    width: 4rem;
+    /* background-color: red; */
+  }
+
+}
+
+@media only screen and (min-width: 431px) and (max-width: 480px) {
+
+  .container {
+    padding: 0 1rem;
+  }
   
-  .main .skills .skill_item span img {
-    height: 3.5rem !important;
-    width: 3.5rem !important;
+  .main .banner {
+    flex-direction: column-reverse;
+    /* background-color: orange; */
+  }
+
+  .main .banner .banner_left {
+    width: 100%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+  }
+
+  .main .banner .banner_left .heading {
+    width: 100%;
+    text-align: center;
+    /* background-color: brown; */
+  }
+  
+  .main .banner .banner_left .heading h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .main .banner .banner_left .intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: olivedrab; */
+  }
+
+  .main .banner .banner_right {
+    height: 18rem;
+    width: 70%;
+    margin: 1rem 0;
+    /* background-color: purple; */
+  }
+  
+  .main .banner .banner_right .banner_img {
+    height: 100%;
+    width: 100%;
+    /* background-color: orange; */
+  }
+
+  .main .skills {
+    padding: 2rem 0.5rem;
+    justify-content: flex-start;
+    /* background-color: red; */
+  }
+
+  .main .skills .skill_item {
+    height: 7rem;
+    width: 7rem;
+    margin: 0 0.5rem;
+    margin-bottom: 2rem;
+    /* background-color: yellowgreen; */
+  }
+
+  .main .skills .skill_item .skill_image_div {
+    height: 3rem;
+    width: 3rem;
+    /* background-color: red; */
   }
 
 }
@@ -295,10 +373,11 @@
     width: 8rem;
     margin-bottom: 2rem;
   }
-  
-  .main .skills .skill_item span img {
-    height: 4rem !important;
-    width: 4rem !important;
+
+  .main .skills .skill_item .skill_image_div {
+    height: 4rem;
+    width: 4rem;
+    /* background-color: red; */
   }
 
 }

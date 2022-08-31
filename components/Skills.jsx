@@ -8,8 +8,10 @@ const Skills = ({skills}) => {
     <div className={styles.skills}>
         {skills && skills.map((skill,index)=> {
         return(<div className={styles.skill_item} key={index}>
-            <Image src={skill.url} alt={skill.name} width="80px" height="80px" />
-            <h3>{skill.name}</h3>
+          <div className={styles.skill_image_div}>
+            <Image src={skill.url} alt={skill.name} layout="fill" />
+          </div>
+          <h3>{skill.name}</h3>
         </div>)
         })}
     </div>

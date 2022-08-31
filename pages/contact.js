@@ -21,18 +21,18 @@ const contact = () => {
         <div className={styles.contact_div}>
 
             <div className={styles.flexdiv}>
-                <FaPhoneAlt size="1.6rem" className={styles.icon} />
+                <FaPhoneAlt className={styles.icon} />
                 <h2>+91 6370533744</h2>
             </div>
 
             <div className={styles.flexdiv}>
-                <GrMail size="1.6rem" className={styles.icon} />
+                <GrMail className={styles.icon} />
                 <h2>tusharnayak1515@gmail.com</h2>
             </div>
 
             <div className={styles.flexdiv}>
-                <MdLocationPin size="1.6rem" className={styles.icon} />
-                <h2>KANSBAHAL,SUNDARGARH,770034</h2>
+                <MdLocationPin className={styles.icon} />
+                <h2>KANSBAHAL,SUNDARGARH</h2>
             </div>
 
         </div>
