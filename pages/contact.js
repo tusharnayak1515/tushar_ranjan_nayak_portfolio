@@ -38,16 +38,16 @@ const contact = () => {
         </div>
 
         <div className={styles.social}>
-            <a href="https://www.linkedin.com/in/tushar-nayak-667156206/" target="_blank">
+            <a href="https://www.linkedin.com/in/tushar-nayak-667156206/" target="_blank" rel="noreferrer">
                 <BsLinkedin className={`${styles.social_icons} ${styles.linkedin}`} />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100010638071586" target="_blank">
+            <a href="https://www.facebook.com/profile.php?id=100010638071586" target="_blank" rel="noreferrer">
                 <BsFacebook className={`${styles.social_icons} ${styles.facebook}`} />
             </a>
-            <a href="https://www.instagram.com/tusharnayak2/" target="_blank">
+            <a href="https://www.instagram.com/tusharnayak2/" target="_blank" rel="noreferrer">
                 <BsInstagram className={`${styles.social_icons} ${styles.instagram}`} />
             </a>
-            <a href="https://github.com/tusharnayak1515" target="_blank">
+            <a href="https://github.com/tusharnayak1515" target="_blank" rel="noreferrer">
                 <BsGithub className={`${styles.social_icons} ${styles.github}`} />
             </a>
             

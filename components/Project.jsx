@@ -22,9 +22,9 @@ const Project = ({project}) => {
                 <Image src={project.image} alt={project.name} layout="fill" />
             </div>}
             <div className={styles.bottom_div}>
-                <a href={project.github} target="_blank"><FaGithub className={styles.icons} /></a>
+                <a href={project.github} target="_blank" rel="noreferrer"><FaGithub className={styles.icons} /></a>
                 <h2>{project.name}</h2>
-                <a href={project.live} target="_blank"><FaExternalLinkAlt color='#0000EE' className={styles.icons} /></a>
+                <a href={project.live} target="_blank" rel="noreferrer"><FaExternalLinkAlt color='#0000EE' className={styles.icons} /></a>
             </div>
         </div>
     )
