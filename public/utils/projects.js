@@ -36,7 +36,7 @@ const projects = [
     live: "https://just-project-manager.vercel.app/",
     image: jpm,
     description:
-      "This is a website like todo-list  which allows users to add their projects and tasks related to them and keep a track of their progress. This website is made using Next.js.",
+      "This is a todo-list like website made using Next JS, which allows users to add their projects and tasks related to them and keep a track of their progress.",
   },
   {
     name: "Tic Tac Toe",
